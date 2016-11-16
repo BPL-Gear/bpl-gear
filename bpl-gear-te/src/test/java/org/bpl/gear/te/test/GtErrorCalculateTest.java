@@ -9,7 +9,7 @@ import org.bpl.gear.te.data.mapper.GearOperate;
 import org.bpl.gear.te.data.mapper.TeOperate;
 import org.bpl.gear.te.error.spur.SpurGearError;
 import org.bpl.gear.te.errorcalculate.SpurGearErrorCalculate;
-import org.bpl.gear.te.utility.FileOperate;
+import org.bpl.gear.utility.file.FileOperate;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;

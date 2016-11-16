@@ -1,7 +1,7 @@
 package org.bpl.gear.te.test.fft;
 
 import org.bpl.gear.te.gt.GtMeasureOperate;
-import org.bpl.gear.te.utility.FileOperate;
+import org.bpl.gear.utility.file.FileOperate;
 import org.junit.Test;
 
 import java.io.IOException;

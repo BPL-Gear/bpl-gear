@@ -1,6 +1,6 @@
 package org.bpl.gear.te.test;
 
-import org.bpl.gear.te.utility.FileOperate;
+import org.bpl.gear.utility.file.FileOperate;
 import org.junit.Test;
 
 import java.io.IOException;

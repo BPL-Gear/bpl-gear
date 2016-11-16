@@ -1,6 +1,6 @@
 package org.bpl.gear.te.test.fft;
 
-import org.bpl.gear.te.utility.FileOperate;
+import org.bpl.gear.utility.file.FileOperate;
 import org.jtransforms.fft.DoubleFFT_1D;
 import org.junit.Test;
 
