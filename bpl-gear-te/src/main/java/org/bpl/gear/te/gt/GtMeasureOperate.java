@@ -6,7 +6,7 @@ import org.apache.commons.math3.transform.FastFourierTransformer;
 import org.apache.commons.math3.transform.TransformType;
 import org.bpl.gear.base.gear.spur.SpurGear;
 import org.bpl.gear.te.error.spur.SpurGearError;
-import org.bpl.gear.te.utility.FileOperate;
+import org.bpl.gear.utility.file.FileOperate;
 
 import java.io.IOException;
 import java.util.List;

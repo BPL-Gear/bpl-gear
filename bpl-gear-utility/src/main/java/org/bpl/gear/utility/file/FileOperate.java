@@ -1,7 +1,4 @@
-package org.bpl.gear.te.utility;
-
-import com.google.gson.Gson;
-import org.bpl.gear.te.gt.GtMeasure;
+package org.bpl.gear.utility.file;
 
 import java.io.*;
 import java.util.ArrayList;
@@ -86,29 +83,7 @@ public class FileOperate {
         fileOutputStream.flush();
     }
 
-    /**
-     * 写入测量文件.
-     *
-     * @param gtMeasure the gt measure
-     * @param path      the path
-     *
-     * @exception IOException the io exception
-     * @exception IOException the io exception
-     * @exception IOException the io exception
-     * @exception IOException the io exception
-     * @exception IOException the io exception
-     * @exception IOException the io exception
-     * @exception IOException the io exception
-     */
-    public void writeFile(GtMeasure gtMeasure, String path) throws IOException {
-        File file = new File(path);
-        file.createNewFile();
-        BufferedWriter bufferedWriter = new BufferedWriter(new FileWriter(file));
-        String jsonString = new Gson().toJson(gtMeasure);
-        bufferedWriter.write(jsonString);
-        bufferedWriter.flush();
-        bufferedWriter.close();
-    }
+
 
     /**
      * 读取CSV文件.
