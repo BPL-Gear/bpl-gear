@@ -11,6 +11,7 @@
         <module>bpl-gear-utility</module>
         <module>bpl-gear-base</module>
         <module>bpl-gear-nv</module>
+        <module>bpl-gear-te</module>
     </modules>
     <packaging>pom</packaging>
 
